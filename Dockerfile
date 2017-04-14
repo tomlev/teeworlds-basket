@@ -1,5 +1,4 @@
 FROM debian:jessie
-MAINTAINER Alejandro Lazaro <virtualroot@gmail.com>
 
 ENV GAME_TYPE ctf
 

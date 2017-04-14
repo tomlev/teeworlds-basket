@@ -1,3 +1,3 @@
 #!/bin/bash
 
-exec /tmp/teeworlds_basket_srv -f /ctf.cfg
+exec /usr/games/teeworlds-server -f /ctf.cfg

@@ -1,8 +1,8 @@
 FROM debian:jessie
 
 COPY run.sh /run.sh
-COPY teeworlds_basket_srv /usr/games/teeworlds_basket_srv
-RUN chmod +x /usr/games/teeworlds_basket_srv
+COPY teeworlds_basket_srv /teeworlds_basket_srv
+RUN chmod +x /teeworlds_basket_srv
 
 COPY ctf.cfg /ctf.cfg
 
